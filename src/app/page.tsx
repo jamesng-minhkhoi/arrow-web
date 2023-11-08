@@ -13,7 +13,7 @@ export default function Home() {
       <section className='container h-screen block'>
          <span className='text-8xl'>WE KNOW WHAT <br></br> WORK AND DON'T.</span>
       </section>
-      <section className='block container'> 
+      <section className='block container h-screen'> 
         <hr />
         <h1 className='text-8xl'>ARROW </h1>
         <div className='grid grid-cols-4 grid-flow-col gap-4'>
@@ -21,7 +21,7 @@ export default function Home() {
             <h2 className="max-w-fit"> Story </h2>
             <p className='block'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div className='container border-l-4 '>
+          <div className='container border-x-4 '>
             <h2> Our services </h2>
             <ul>
               <li>STRATEGY</li>
