@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 export default function Header(){
     return (
         <header>
@@ -8,9 +10,9 @@ export default function Header(){
                         <span>EN</span>
                     </span>
                 </div>
-                <marquee className="ml-auto inline-block w-1/5 border-2"> 
+                <Marquee className="ml-auto inline-block w-1/5 border-2"> 
                     <span>01 BE AUTHENTIC   //   02 VALUE DRIVEN    //   03 TRUST </span>
-                </marquee>
+                </Marquee>
                 
                 <hr className="my-2"/>
                 <span className="text-8xl font-bold block"> ARROW-STUDIO ➤</span>
