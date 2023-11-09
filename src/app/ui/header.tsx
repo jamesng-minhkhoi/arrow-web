@@ -16,12 +16,12 @@ export default function Header(){
                 </Marquee>
                 </div>
                 
-                <hr className="my-2 border-t-4"/>
+                <hr className="my-2 border-t"/>
                 <span className="text-8xl font-bold block 	"> ARROW-STUDIO ➤</span>
                 <div className="flex justify-between text-2xl font-normal block mb-4 italic">
                     <span>  Digital Design & Marketing Agency / Saigon, Vietnam © 2023 </span>
                 </div>
-                <hr className="my-2 border-t-4"/>
+                <hr className="my-2 border-t"/>
             </div>
             <div className="container mx-auto justify-between">
                     <ul className="inline-flex justify-start">
