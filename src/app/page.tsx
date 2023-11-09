@@ -25,7 +25,7 @@ export default function Home() {
       alt="Picture of the author"></Image>
       </section>
 
-      <section className=' w-full block bg-black'>
+      <section className='h-screen w-full block bg-black'>
         <div className='container block mx-auto'>
           <div className='grid grid-cols-8 grid-rows-8 gap-4 w-full'>
             <span  className='text-4xl block text-start col-start-1 row-start-4 col-span-2 row-span-1'>WE KNOW WHAT WORK AND DON'T.</span>
@@ -83,7 +83,7 @@ export default function Home() {
           </Marquee>
         </div>
       </section>
-      <section className='w-full block bg-black'>
+      <section className='w-full min-h-screen h-screen block bg-black'>
         <hr />
         <div className='container w-full block mx-auto'>
         <div className=' w-full grid grid-cols-8 grid-rows-8 grid-flow-col gap-4'>
@@ -101,7 +101,7 @@ export default function Home() {
 
             <li className='pb-16'>CAMPAIGN</li>
           </ul>
-          <span className=' block col-start-6 col-span-2 row-start-6 row-span-1'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+          <span className=' block col-start-6 col-span-2 row-start-7 row-span-1'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
 
          
         </div>
@@ -114,46 +114,46 @@ export default function Home() {
             <h1 className='text-4xl block col-start-1 col-span-2 row-start-3'> Projects</h1>
             <span className='col-start-3 col-span-2 row-start-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           
-            <div className='block row-start-7 col-start-1 col-span-4'>
-              <ul  className='text-start text-4xl'>
-                <li className='pb-8 text-white'>
+            <div className='block row-start-5 col-start-1 col-span-4'>
+              <ul  className='text-start text-2xl'>
+                <li className='pb-2 text-white'>
                   <div className='flex inline-block'>
                     <span className='text-white text-sm text-gray-500 mx-6'>Ecommmere</span>
                     <span className='text-white text-sm text-gray-500 mx-2'>Enterprise</span>
                   </div>
-                  <span className='text-xl'>01.</span>
+                  {/* <span className='text-lg'>1.   </span> */}
                    Work Name 01 
-                  <svg className='inline-block' width="70" height="70" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.64645 11.3536C3.45118 11.1583 3.45118 10.8417 3.64645 10.6465L10.2929 4L6 4C5.72386 4 5.5 3.77614 5.5 3.5C5.5 3.22386 5.72386 3 6 3L11.5 3C11.6326 3 11.7598 3.05268 11.8536 3.14645C11.9473 3.24022 12 3.36739 12 3.5L12 9.00001C12 9.27615 11.7761 9.50001 11.5 9.50001C11.2239 9.50001 11 9.27615 11 9.00001V4.70711L4.35355 11.3536C4.15829 11.5488 3.84171 11.5488 3.64645 11.3536Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                  <svg className='inline-block' width="30" height="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.64645 11.3536C3.45118 11.1583 3.45118 10.8417 3.64645 10.6465L10.2929 4L6 4C5.72386 4 5.5 3.77614 5.5 3.5C5.5 3.22386 5.72386 3 6 3L11.5 3C11.6326 3 11.7598 3.05268 11.8536 3.14645C11.9473 3.24022 12 3.36739 12 3.5L12 9.00001C12 9.27615 11.7761 9.50001 11.5 9.50001C11.2239 9.50001 11 9.27615 11 9.00001V4.70711L4.35355 11.3536C4.15829 11.5488 3.84171 11.5488 3.64645 11.3536Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                  </li>
-                <li className='py-8 border-t border-gray-800'>
+                <li className='py-2 border-t border-gray-800'>
                 <div className='flex inline-block'>
                     <span className='text-white text-sm text-gray-500 mx-6'>Ecommmere</span>
                     <span className='text-white text-sm text-gray-500 mx-2'>Enterprise</span>
                   </div>
-                  <span className='text-xl'>02.</span>
+                  {/* <span className='text-xl'>02.</span> */}
                    Work Name 02
                 </li>
-                <li className='py-8 border-t border-gray-800'>
+                <li className='py-2 border-t border-gray-800'>
                 <div className='flex inline-block'>
                     <span className='text-white text-sm text-gray-500 mx-6'>Ecommmere</span>
                     <span className='text-white text-sm text-gray-500 mx-2'>Enterprise</span>
                   </div>
-                  <span className='text-xl'>03.</span>
+                  {/* <span className='text-xl'>03.</span> */}
                    Work Name 03 
                 </li>
-                <li className='py-8 border-t border-gray-800'>
+                <li className='py-2 border-t border-gray-800'>
                 <div className='flex inline-block'>
                     <span className='text-white text-sm text-gray-500 mx-6'>Ecommmere</span>
                     <span className='text-white text-sm text-gray-500 mx-2'>Enterprise</span>
                   </div>
-                  <span className='text-xl'>04.</span>
+                  {/* <span className='text-xl'>04.</span> */}
                    Work Name 04
                 </li>
               </ul>
              
             </div>
 
-            <span className='font-bold p-4 col-start-6 col-span-3 row-start-7'>
+            <span className='font-bold p-4 col-start-6 col-span-3 row-start-5'>
               <span className='block text-white text-end '>
                 DETAIL
               </span>
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
       </section>
    
-      <section className='w-full h-screen bg-white block'>
+      <section className='w-full  bg-white block'>
        
         <div className='container block mx-auto'>
         <div className='grid grid-cols-8 grid-rows-4 gap-1'>
@@ -192,31 +192,26 @@ export default function Home() {
             <br />
             <span>Satification</span>  
           </div>
-          <p className='text-black row-start-2 col-start-1 text-start text-2xl col-span-1'>
-            We let our numbers speak
+          <p className='text-black row-start-2 col-start-1 text-start text-4xl col-span-1'>
+            About us
           </p>
-          <span className='text-black row-start-2 col-start-7 col-span-3'>
+          <span className='text-black row-start-2 col-start-5 col-span-2'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </span>
+          <span className='text-black row-start-2 col-start-7 col-span-3'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </span>
         </div>
         </div>
+        <div className='rounded-2xl px-12'>
+          <Image src="/dummy.gif" width={5000} height={5000} alt="Picture of the author"></Image>
+        </div>
+        
+      </section>
+      <section className="bg-white container block items-center justify-between ">
+       
       </section>
 
-      <section className='h-screen bg-white block w-full border-y text-black'>
-        <div className='container block mx-auto'>
-          <div className='grid grid-cols-8 grid-rows-8 gap-4'>
-            <span className='text-4xl'>
-              The people
-            </span>
-            <div className='block col-start-3 col-span-5 row-start-1 row-span-7'>
-                  <Image className='rounded-2xl' src="/dummy.jpg"
-                    width={1000}
-                    height={2000}
-                    alt="Picture of the author"></Image>
-            </div>
-          </div>
-        </div>
-      </section>
  
 
   

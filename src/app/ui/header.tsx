@@ -10,27 +10,26 @@ export default function Header(){
                         <span>EN</span>
                     </span>
                 </div>
-                <div className="w-1/5 ml-auto inline-block border-y-2 border-x-8">
+                {/* <div className="w-1/5 ml-auto inline-block border-y-2 border-x-8">
                 <Marquee> 
                     <span>01 STAY AUTHENTIC   //   02 VALUE DRIVEN    //   03 TRUST </span>
                 </Marquee>
-                </div>
+                </div> */}
                 
                 <hr className="my-2 border-t"/>
-                <span className="text-8xl font-bold block 	"> ARROW-STUDIO ➤</span>
-                <div className="flex justify-between text-2xl font-normal block mb-4 italic">
+                <span className="text-8xl  block 	"> ARROW-STUDIO ➤</span>
+                <div className="flex justify-between text-2xl font-thin block mb-4 ">
                     <span>  Digital Design & Marketing Agency / Saigon, Vietnam © 2023 </span>
                 </div>
-                <hr className="my-2 border-t"/>
             </div>
-            <div className="container mx-auto justify-between">
+            {/* <div className="container mx-auto justify-between">
                     <ul className="inline-flex justify-start">
                         <li className="group rounded-lg border border-transparent px-5 mr-2  transition-colors hover:border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"> Work(s) </li>
                         <li className="group rounded-lg border border-transparent px-5 mr-2 transition-colors hover:border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"> About </li>
                         <li className="group rounded-lg border border-transparent px-5 mr-2 transition-colors hover:border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"> Contact </li>
                         <li className="group rounded-lg border border-transparent px-5 mr-2 transition-colors hover:border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"> Services </li>
                     </ul>
-                </div>
+                </div> */}
         </header>
     )
 }
