@@ -108,7 +108,6 @@ export default function Home() {
         </div>
       </section>
       <section className=' w-full h-screen bg-black block'>
-        <hr />
         <div className=" container mx-auto">
           <div className=' w-full grid grid-cols-8 grid-rows-8 gap-4'>
             <h1 className='text-4xl block col-start-1 col-span-2 row-start-3'> Projects</h1>
