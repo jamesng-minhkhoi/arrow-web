@@ -4,6 +4,7 @@ import './globals.css'
 import Header from './ui/header'
 import Footer from './ui/footer'
 import Cursor from './ui/cursor'
+import Grain from './ui/grain'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Cursor></Cursor>
           {children}
         <Footer></Footer>
+        <Grain></Grain>
       </body>
     </html>
   )
